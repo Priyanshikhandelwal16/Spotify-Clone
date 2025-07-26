@@ -172,17 +172,20 @@
    position: sticky;
    border: 1px solid rgba(159, 159, 159, 0.132);
    position: relative;
+   bottom: 10%;
  }
 
  .box1 {
    display: flex;
+   position: relative;
+   bottom: 10px;
  }
 
  .box1 img {
    margin-left: 15px;
    margin-top: 15px;
-   width: 60px;
-   height: 60px;
+   width: 40px;
+   height: 40px;
  }
 
  .box1 .title {
@@ -200,6 +203,11 @@
 
  }
 
+ .box1 .title-info{
+  position: relative;
+  bottom: 10px;
+ }
+
  .box1 .heart {
    color: rgb(177, 177, 177);
    margin-top: 28px;
@@ -208,7 +216,6 @@
  }
 
  #song-slider {
-   -webkit-appearance: none;
    margin-top: 15px;
    width: 400px;
    border-radius: 20px;
@@ -263,6 +270,10 @@
    transition: all 0.2s;
  }
 
+ .player i{
+  color: white;
+ }
+
  .box2 .uil {
    color: white;
    font-size: 1.3em;
@@ -279,12 +290,12 @@
    justify-content: center;
    align-items: center;
    margin-right: 25px;
-   margin-top: -10px;
+   margin-top: -50px;
    gap: 10px;
  }
 
  #volume {
-   -webkit-appearance: none;
+   /* -webkit-appearance: none; */
    margin-top: 15px;
    width: 100px;
    border-radius: 20px;
@@ -548,3 +559,5 @@
 
    opacity: 1;
  }
+
+ 
